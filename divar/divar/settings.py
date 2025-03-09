@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'electronic_devices',
-    'home_kitchen'
+    'home_kitchen',
+    'job_s'
     
 ]
 

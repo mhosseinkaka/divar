@@ -22,4 +22,6 @@ urlpatterns = [
     path('electronic-devices/', include('electronic_devices.urls')),
     path('entertainment/', include('entertainment.urls')),
     path('home-kitchen/', include('home_kitchen.urls')),
+    path('jobs/', include('job_s.urls')),
+
 ]
