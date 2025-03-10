@@ -42,7 +42,11 @@ INSTALLED_APPS = [
     'home_kitchen',
     'job_s',
     'personal_goods',
-    'real_state'
+    'real_estate',
+    'service_s',
+    'social_services',
+    'tools_materials_equipment',
+    'vehicles'
     
 ]
 

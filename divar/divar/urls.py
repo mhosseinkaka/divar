@@ -24,7 +24,9 @@ urlpatterns = [
     path('home-kitchen/', include('home_kitchen.urls')),
     path('jobs/', include('job_s.urls')),
     path('personal-goods', include('personal_goods.urls')),
-    path('real-state', include('real_state.urls'))
-
-
+    path('real-state', include('real_estate.urls')),
+    path('servises/', include('service_s.urls')),
+    path('social-services', include('social_services.urls')),
+    path('tools-materials-equipment', include('tools_materials_equipment.urls')),
+    path('vehicles', include('vehicles.urls'))
 ]
