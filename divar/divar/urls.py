@@ -23,5 +23,7 @@ urlpatterns = [
     path('entertainment/', include('entertainment.urls')),
     path('home-kitchen/', include('home_kitchen.urls')),
     path('jobs/', include('job_s.urls')),
+    path('personal-goods', include('personal_goods.urls')),
+    
 
 ]
