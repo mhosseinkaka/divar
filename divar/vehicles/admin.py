@@ -1,7 +1,19 @@
-from django.contrib import admin
-from vehicles.models import Car, Truck, Vehicle, Motor
+from django.contrib.admin import ModelAdmin, register
+from vehicles.models import Car, Truck, Motor, Vehicle
 # Register your models here.
-admin.site.register(Car)
-admin.site.register(Truck)
-admin.site.register(Vehicle)
-admin.site.register(Motor)
+@register(Car)
+class Caradmin(ModelAdmin):
+    list_display = ['name', 'brand']
+
+@register(Truck)
+class Truckadmin(ModelAdmin):
+    list_display = ['name', 'brand']
+
+
+@register(Motor)
+class Motoradmin(ModelAdmin):
+    list_display = ['name', 'brand']
+
+@register(Vehicle)
+class Vehicleadmin(ModelAdmin):
+    list_display = ['engine', 'cc', 'sokht', 'vazn', 'number_sarneshin', 'country_product']

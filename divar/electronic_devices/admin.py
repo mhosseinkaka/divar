@@ -1,10 +1,27 @@
-from django.contrib import admin
+from django.contrib.admin import ModelAdmin, register
 from electronic_devices.models import *
 # Register your models here.
 
-admin.site.register(E_device)
-admin.site.register(Tablet)
-admin.site.register(Mobile)
-admin.site.register(Computers)
-admin.site.register(Game_console)
-admin.site.register(Video_audio)
+@register(E_device)
+class E_deviceAdmin(ModelAdmin):
+    list_display = ['name', 'power', 'product_year', 'price']
+
+@register(Tablet)
+class TabletAdmin(ModelAdmin):
+    list_display = ['brand', 'name', 'product_year', 'price']
+
+@register(Mobile)
+class MobileAdmin(ModelAdmin):
+    list_display = ['brand', 'name', 'product_year', 'price']
+
+@register(Computers)
+class ComputersAdmin(ModelAdmin):
+    list_display = ['brand', 'name', 'product_year', 'price']
+
+@register(Game_console)
+class Game_consoleAdmin(ModelAdmin):
+    list_display = ['brand', 'name', 'product_year', 'price']
+
+@register(Video_audio)
+class Video_audioAdmin(ModelAdmin):
+    list_display = ['brand', 'name', 'product_year', 'price']

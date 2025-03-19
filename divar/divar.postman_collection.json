@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "76e733b5-6bea-444b-9615-ed8579c74f73",
+		"name": "divar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42911797"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/entertainment/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/entertainment/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"entertainment",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/entertainment/books/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/entertainment/books/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"entertainment",
+						"books",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/entertainment/sport/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/entertainment/sport/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"entertainment",
+						"sport",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/electronic-devices/tablet-mobile",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/electronic-devices/tablet-mobile",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"electronic-devices",
+						"tablet-mobile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/electronic-devices/telephones",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/electronic-devices/telephones",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"electronic-devices",
+						"telephones"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
