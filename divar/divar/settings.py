@@ -46,8 +46,8 @@ INSTALLED_APPS = [
     'service_s',
     'social_services',
     'tools_materials_equipment',
-    'vehicles'
-    
+    'vehicles',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
